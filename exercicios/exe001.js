@@ -1,4 +1,4 @@
-function validaDateForm() {
+function validateForm() {
     let x = parseInt(document.forms['myForm']['fname'].value);
     if (x === "") {
         alert("digite algo");

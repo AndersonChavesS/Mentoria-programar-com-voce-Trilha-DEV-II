@@ -1,4 +1,4 @@
-function validaDateForm() {
+function validateForm() {
     let capital = parseFloat(document.forms['myForm']['fname'].value);
     let txJuros = parseFloat(document.forms['myForm']['fname2'].value);
     let meses = parseInt(document.forms['myForm']['fname3'].value);

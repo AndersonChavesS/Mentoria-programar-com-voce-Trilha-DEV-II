@@ -1,4 +1,4 @@
-function validaForm() {
+function validateForm() {
     let x = parseInt(document.forms["myForm"]["fname"].value);
     let y = parseInt(document.forms["myForm"]["fname2"].value);
     let z = parseInt(document.forms["myForm"]["fname3"].value);
