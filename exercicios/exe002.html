@@ -9,10 +9,13 @@
 
 <body>
     <form name="myForm" action="/action_page.php" onsubmit="">
-        <input type="text" name="fname">
-        <input type="text" name="fname2">
-        <input type="text" name="fname3">
-        <input type="button" onclick="validaForm()" value="Submit form" class="btn">
+        <label for="number1">1º número</label>
+        <input id="number1" type="text" name="fname"><br>
+        <label for="number2">2º número</label>
+        <input id="number2" type="text" name="fname2"><br>
+        <label for="number3">3º número</label>
+        <input id="number3" type="text" name="fname3"><br>
+        <input type="button" onclick="validaForm()" value="Calcular Média" class="btn">
     </form>
     <script src="exe002.js"></script>
 </body>

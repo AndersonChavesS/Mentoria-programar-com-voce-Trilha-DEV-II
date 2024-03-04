@@ -6,6 +6,6 @@ function validaDateForm() {
     }else {
         y = x + 1;
         z = x - 1;
-        alert(`O antecessor é ${z} e o sucessor é ${y}`);
+        alert(`Número digitado: ${x}\n Antecessor: ${z}\nSucessor: ${y}`);
     }
 }
