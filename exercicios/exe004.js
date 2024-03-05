@@ -1,5 +1,5 @@
 function validateForm() {
-    let tempo = parseInt(document.forms['myForm']['fname'].value);
+    let tempo = parseInt(document.forms['myForm']['fname1'].value);
     let velocidade = parseInt(document.forms['myForm']['fname2'].value);
     let consumo = parseInt(document.forms['myForm']['fname3'].value);
     let valorCombustivel = parseInt(document.forms['myForm']['fname4'].value);

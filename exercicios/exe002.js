@@ -1,5 +1,5 @@
 function validateForm() {
-    let x = parseInt(document.forms["myForm"]["fname"].value);
+    let x = parseInt(document.forms["myForm"]["fname1"].value);
     let y = parseInt(document.forms["myForm"]["fname2"].value);
     let z = parseInt(document.forms["myForm"]["fname3"].value);
     if (x === "") {
