@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha DEV Web II - Exercício 10</title>
+</head>
+
+<body>
+    <h1>URNA DIGITAL</h1>
+    <H3>Vote OnLine!</H3>
+    <form name="myForm" action="/action_page.php" onsubmit="">
+        <select name="fname" id="fname">
+            <option value="escolha">Escolha seu candidato</option>
+            <option value="13 - Dilma - PT ">13 - Dilma - PT</option>
+            <option value="43 - Eduardo Campos - PSB">43 - Eduardo Campos - PSB</option>
+            <option value="45 - Aécio Neves - PSDB ">45 - Aécio Neves - PSDB</option>
+            <option value="50 - Fernando Gabeira - PV ">50 - Fernando Gabeira - PV</option>
+            <option value="Nulo">Anular Voto</option>
+            <option value="cancelar">Cancelar</option>
+        </select>
+        <input type="button" onclick="validateForm()" value="Votar" class="btn">
+    </form>
+    <script src="exe010.js"></script>
+</body>
+
+</html>
