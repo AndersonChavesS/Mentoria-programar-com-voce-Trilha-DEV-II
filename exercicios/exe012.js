@@ -11,8 +11,8 @@ function validateForm() {
     }
     for(let k = 1;k < idade.length; k++) {
         if(idade[k] > idade[maior]) {
-            indice = k;
+            maior = k;
         }
     }
-    alert(`A pessoa de maior idade é ${pessoa[indice]}`);
+    alert(`A pessoa de maior idade é ${pessoa[maior]}`);
 }
