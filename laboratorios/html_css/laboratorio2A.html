@@ -6,71 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filme - Um sonho de liberdade</title>
     <link rel="shortcut icon" href="videos_e_imagens/icons8-filmes-tv-16.png" type="image/x-icon">
-    <style>
-        body {
-            background-color: rgb(70, 62, 62);
-            color: white;
-        }
-
-        #tituloPg {
-            text-align: center;
-            color: rgb(249, 156, 106);
-        }
-
-        a {
-            color: rgb(249, 156, 106);
-            position: relative;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5 {
-            text-align: justify;
-            color: aliceblue;
-
-        }
-
-        .sinopse {
-            font-size: 25px;
-            margin-left: 450px;
-        }
-
-        p {
-            margin-left: 450px;
-            text-align: justify;
-            width: 400px;
-            height: 400px;
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--Laboratório 2: 
 No laboratório anterior criamos uma página que continha uma tabela com um link para vilualizarmos os detalhes de um determinado filme. Percebe-se que todos os links estão temporariamente apontando para a mesma página. Então, vamos supor que clicamos no link de ver detalhes do filme Frozen. Na página que criaremos, teremos informações sobre o filme como: título, ano, tipo e sinopse. E também mostraremos a imagem do filme e um link para assistir o trailer do mesmo.-->
-    <h1 id="tituloPg">Assista Filmes Online</h1>
-    <a href="laboratorio1_index.html">
-        <h3>Home</h3>
+
+    <h1 class="tituloPg">Assista Filmes Online</h1>
+    <a class="_home" href="laboratorio1_index.html">
+        <h3 class="home" title="Ir para a página principal">Home</h3>
     </a>
+    <hr>
     <h1>Um sonho de liberdade</h1>
+
     <h5><small>Lançado em 1994 <strong>No cinema</strong> | Duração | 2h 22min | Drama</small></h5>
+
     <H4>Direção: <strong>Frank Darabont</strong> | Roteiro <strong>Frank Darabont, Stephen King</strong></H4>
+
     <h4>Elenco: <strong>Tim Robbins, Morgan Freeman, Bob Gunton</strong></h4>
-    <h4>Título Original: 'The Shawshank Redemption'</h4><br>
-    <img src="videos_e_imagens/img.UmSonhodeLiberdade.jpg" align="left" alt="image">
+
+    <h4>Título Original: 'The Shawshank Redemption'</h4>
+    <br>
+    <img class="img" src="videos_e_imagens/img.UmSonhodeLiberdade.jpg" alt="image">
+
     <h3 class="sinopse">Sinopse</h3>
-    <p>Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida radicalmente modificada
+
+    <p class="_sinopse">Em 1946, Andy Dufresne (Tim Robbins), um jovem e bem sucedido banqueiro, tem a sua vida
+        radicalmente modificada
         ao ser condenado por um crime que nunca cometeu, o homicídio de sua esposa e do amante dela. Ele é mandado para
         uma prisão que é o pesadelo de qualquer detento, a Penitenciária Estadual de Shawshank, no Maine. Lá ele irá
         cumprir a pena perpétua. Andy logo será apresentado a Warden Norton (Bob Gunton), o corrupto e cruel agente
         penitenciário, que usa a Bíblia como arma de controle e ao Capitão Byron Hadley (Clancy Brown) que trata os
         internos como animais. Andy faz amizade com Ellis Boyd Redding (Morgan Freeman), um prisioneiro que cumpre pena
         há 20 anos e controla o mercado negro da instituição.</p>
-    <a href="laboratorio3A.html" target="_parent"><strong>Assista ao Trailer do Filme</strong></a>
+    <a class="trailer" href="laboratorio3A.html" target="_parent" title="Assistir ao trailer"><strong>Assista ao Trailer do Filme</strong></a>
 
 
 

@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: rgba(244, 197, 197, 0.808);
+}
+.home, ._home{
+    color: brown;
+    text-decoration: none;
+    margin-left: 900px;
+    font-size: 25px;
+}
+.home:hover{
+    color: chocolate;
+}
+
+.tituloPg {
+    margin: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,
+h4,
+h5 {
+    margin: 10px 10px 10px 450px;
+}
+
+.sinopse {
+    margin: -260px 0px 10px 350px;
+    font-size: 22px;
+}
+
+._sinopse {
+    margin: 10px 10px 10px 350px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#sinopse{
+    margin: 10px 10px 10px 350px;
+    font-size: 22px;
+}
+
+#_sinopse{
+    margin: 10px 10px 10px 350px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.trailer{
+    margin: 10px 10px 10px 350px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+}
+
+.trailer:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+#_trailer{
+    color: brown;
+    margin: 10px 10px 10px 350px;
+}
+#video{
+    margin: 10px 10px 10px 350px;
+ 
+}
+
+.img{
+    margin: -170px 10px 10px 10px;
+    border-radius: 3px;
+    }
+
+#nome,
+#_nome,
+#ano,
+#_ano,
+#buscar,
+#_tipo,
+#listagem {
+    margin: 5px 5px 5px 35px;
+}
+
+#nome,
+#ano,
+#tipo {
+    background-color: rgba(0, 0, 0, 0.397);
+    color: whitesmoke;
+}
+
+#buscar {
+    background-color: rgba(231, 117, 117, 0.42);
+    color: whitesmoke;
+}
+
+#listagem,
+#nome,
+#ano,
+#tipo,
+#buscar {
+    border-radius: 4px;
+}
+
+td,
+th {
+    padding: 7px 14px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: brown;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: chocolate;
+}

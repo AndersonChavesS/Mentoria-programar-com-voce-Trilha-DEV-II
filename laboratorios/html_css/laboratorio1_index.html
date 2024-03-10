@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes e Séries Online</title>
+    <link rel="shortcut icon" href="videos_e_imagens/icons8-filmes-tv-16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--LABORATORIO 1:
+        Neste primeiro laboratório, iremos construir juntos a pagina de buscar filmes, que esta na figura abaixo:-->
+    <h1 class="tituloPg">Assista Filmes e Séries OnLine</h1>
+    <form id="frmbusca">
+        <label for="nome" id="_nome">Nome do filme</label>
+        <br>
+        <input type="text" id="nome" placeholder="digite o nome do filme" title="Digite o nome do filme">
+        <br>
+        <label for="ano" id="_ano">Ano do filme</label>
+        <br>
+        <input type="number" id="ano" value="1900" title="Selecione o ano">
+        <br>
+        <label for="tipo" id="_tipo">Tipo</label>
+        <select id="tipo" title="Escolha a opção">
+            <option value="Escolha a opção">Escolha a opção</option>
+            <option value="filme" title="Filme">Filme</option>
+            <option value="serie" title="Série">Série</option>
+            <option value="desenho" title="Desenho">Desenho</option>
+        </select>
+        <button id="buscar" type="submit" title="Buscar">Buscar</button>
+        <br>
+        <table id="listagem" border="1">
+            <br>
+            <Thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Ano</th>
+                    <th>Tipo</th>
+                    <th>Detalhes</th>
+                </tr>
+            </Thead>
+            <tbody>
+                <tr>
+                    <td>Um sonho de Liberdade</td>
+                    <td>1994</td>
+                    <td>Filme</td>
+                    <td><a class="link" href="laboratorio2A.html" target="_self" title="Ir para Sinopse">Sinopse</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>O senhor dos Anéis: O Retorno do Rei</td>
+                    <td>2003</td>
+                    <td>Filme</td>
+                    <td><a class="link" href="laboratorio2B.html" target="_self" title="Ir para Sinopse">Sinopse</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Matrix</td>
+                    <td>1999</td>
+                    <td>Filme</td>
+                    <td><a class="link" href="laboratorio2C.html" target="_self" title="Ir para Sinopse">Sinopse</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>
