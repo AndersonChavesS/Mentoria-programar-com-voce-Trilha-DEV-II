@@ -7,15 +7,6 @@ body {
     background-color: rgba(0, 0, 0, 0.895);
     color: rgba(244, 197, 197, 0.808);
 }
-.home, ._home{
-    color: brown;
-    text-decoration: none;
-    margin-left: 900px;
-    font-size: 25px;
-}
-.home:hover{
-    color: chocolate;
-}
 
 .tituloPg {
     margin: 10px;
@@ -29,53 +20,17 @@ h5 {
     margin: 10px 10px 10px 450px;
 }
 
-.sinopse {
-    margin: -260px 0px 10px 350px;
-    font-size: 22px;
-}
-
-._sinopse {
-    margin: 10px 10px 10px 350px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-#sinopse{
-    margin: 10px 10px 10px 350px;
-    font-size: 22px;
-}
-
-#_sinopse{
-    margin: 10px 10px 10px 350px;
-    font-size: 18px;
-    text-align: justify;
-}
-
-.trailer{
-    margin: 10px 10px 10px 350px;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
+.home,
+._home {
     color: brown;
+    text-decoration: none;
+    margin-left: 900px;
+    font-size: 25px;
 }
 
-.trailer:hover{
-    text-decoration: underline;
+.home:hover {
     color: chocolate;
 }
-#_trailer{
-    color: brown;
-    margin: 10px 10px 10px 350px;
-}
-#video{
-    margin: 10px 10px 10px 350px;
- 
-}
-
-.img{
-    margin: -170px 10px 10px 10px;
-    border-radius: 3px;
-    }
 
 #nome,
 #_nome,
@@ -122,4 +77,71 @@ th {
 .link:hover {
     text-decoration: underline;
     color: chocolate;
+}
+
+.sinopse {
+    margin: -260px 0px 10px 400px;
+    font-size: 22px;
+}
+
+._sinopse {
+    width: 800px;
+    height: 200px;
+    margin: 10px 10px 10px 350px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#sinopse {
+    margin: 10px 10px 10px 400px;
+    font-size: 22px;
+}
+
+#_sinopse {
+    width: 800px;
+    height: 200px;
+    margin: 10px 10px 10px 350px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.trailer {
+    margin: 10px 10px 10px 650px;
+    font-size: 18px;
+    text-decoration: none;
+    color: brown;
+}
+
+.trailer:hover {
+    text-decoration: underline;
+    color: chocolate;
+}
+
+#trailer{
+    margin: 10px 10px 10px 350px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+}
+#trailer:hover {
+    text-decoration: underline;
+    color: chocolate;
+}
+
+#_trailer {
+    color: brown;
+    margin: 10px 10px 10px 350px;
+}
+
+#video {
+    margin: 10px 10px 10px 350px;
+    width: 560px;
+    height: 330px;
+
+}
+
+.img {
+    margin: -170px 10px 10px 10px;
+    border-radius: 3px;
 }
