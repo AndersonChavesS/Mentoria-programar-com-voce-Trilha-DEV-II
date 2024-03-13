@@ -1,4 +1,4 @@
-var pessoa = new Object();
+let pessoa = new Object();
 pessoa.idade = 25;
 pessoa.sexo = "masculino";
 pessoa.cidade = "Porto Velho";
